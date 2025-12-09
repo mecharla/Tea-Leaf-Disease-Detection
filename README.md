@@ -86,27 +86,6 @@ CNN + VGG16	78.73%
 DenseNet + VGG16	80.44%
 CNN + DenseNet + VGG16	81.39% (Best)
 
-The tri-model ensemble produced the most stable and robust predictions.
-
-🏗️ Project Structure
-├── models/
-│   ├── cnn_model.pkl
-│   ├── densenet_model.pkl
-│   ├── vgg16_model.pkl
-│   ├── ensemble_model.pkl
-│
-├── app/
-│   ├── streamlit_app.py
-│   ├── utils.py
-│
-├── data/
-│   ├── train/
-│   └── test/
-│
-├── README.md
-├── requirements.txt
-└── inference_pipeline.py
-
 ▶️ Running the Project
 1. Install dependencies
 pip install -r requirements.txt
